@@ -1,6 +1,6 @@
 type combined = string | number;
 
-function add(numberONe: number | string, numberTwo :number| string){
+function add(numberONe:combined, numberTwo :combined){
     if(typeof numberONe === 'number' && typeof numberTwo === 'number'){
         return numberONe + numberTwo
     }else{

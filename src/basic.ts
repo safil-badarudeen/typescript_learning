@@ -1,4 +1,4 @@
-function add( numberOne :number , numberTwo :number ) {
+function added( numberOne :number , numberTwo :number ) {
   return numberOne + numberTwo;
 }
 
